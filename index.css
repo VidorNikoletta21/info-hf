@@ -2,3 +2,43 @@ h1 {
     text-align: center;
 
 }
+body {
+    background-color: #ffcccb; /* Babarózsaszín háttér */
+    
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex; /* Flexbox a szöveg és a kép elrendezéséhez */
+    justify-content: space-between; /* Térköz a szöveg és a kép között */
+    padding: 20px; /* Párnázás */
+    margin: 20px;
+}
+
+.text-box {
+    flex: 1; /* A szövegdoboz balra igazítva */
+    
+    
+}
+
+.image-box {
+    flex: 1; /* A kép jobbra igazítva */
+    display: flex;
+    justify-content: flex-end; /* A kép jobb oldalra zárva */
+}
+
+.image-box img {
+    max-width: 75%; /* A kép méretének korlátozása */
+    max-height: 75%;
+    height: auto; /* Arányok megőrzése */
+    border-radius: 15px;
+    
+}
+
+.p3 {
+    border-top: 1px solid #000000; 
+    color: gray; /* Szürke szöveg */
+    padding-top: 10px; /* Párnázás a vonal felett */
+    margin: 20px; /* Margó */
+}
